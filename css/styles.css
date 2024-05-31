@@ -1,18 +1,27 @@
-h1 {
+div {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
 }
 
-ul li { padding: 5px 0px; }
 
-ul{
+.homepage-title {
+    background-color: dodgerblue;
+}
+
+.homepage-recipe-list {
+    background-color: cornsilk;
+}
+
+ul li { padding:20px 0px; }
+
+ul {
     text-align: center;
     padding-left: 0;
-    list-style-type: armenian;
-   
+    list-style-type: none;
 }
 
-li::before{
+li::before {
     list-style-position: inside;
     display: inline-block;
     margin-bottom: 10;
