@@ -7,10 +7,12 @@ div {
 
 .homepage-title {
     background-color: dodgerblue;
+    border: 10px solid black;
 }
 
 .homepage-recipe-list {
     background-color: cornsilk;
+    border: 10px solid black
 }
 
 ul li { padding:20px 0px; }
